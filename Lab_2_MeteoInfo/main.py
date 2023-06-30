@@ -2,7 +2,7 @@ import requests
 
 
 city = 'Moscow'
-appid = 'b095bec2c30196f1415708340260c2af'
+appid = 'some_password_string'
 
 
 res = requests.get("http://api.openweathermap.org/data/2.5/weather",

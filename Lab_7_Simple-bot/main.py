@@ -4,7 +4,7 @@ from telebot import types
 from db_work import show_day_schedule, show_week_schedule
 
 
-token = "6165556349:AAGGxmlZTjPnhcXNbUxrfch_-9uuXRUBGV0"
+token = "telebot_token"
 bot = telebot.TeleBot(token)
 
 week_number = int(time.strftime("%U"))
